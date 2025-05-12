@@ -1,0 +1,1 @@
+flex - it will used to arrange the items in the one direction 

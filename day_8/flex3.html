@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex grow example</title>
+</head>
+<body>
+    <style>
+        .parent{
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            
+        }
+        .child{
+            flex-grow: 1;
+            height:100px;
+            width:100px;
+            font-size:20px;
+            flex-shrink: 0;
+        }
+        .one{
+            order:3;
+            background-color: red;
+        }
+        .two{
+            flex-grow: 0;
+            background-color: blue
+          
+        }
+        .three{
+            align-self: flex-end;
+            background-color: green;
+        }
+        .four{
+            background-color: yellow;
+        }
+
+
+    </style>
+    
+</body>
+<div class="parent">
+    <div class="child one">1</div>
+    <div class="child two">2</div>
+    <div class="child three">3</div>
+    <div class="child four">4</div>
+    </div>
+    <!-- 
+    <div class="child one">1</div>
+    <div class="child two">2</div>
+    <div class="child three">3</div>
+    <div class="child four">4</div>
+    <div class="child one">1</div>
+    <div class="child two">2</div>
+    <div class="child three">3</div>
+    <div class="child four">4</div>
+    <div class="child one">1</div>
+    <div class="child two">2</div>
+    <div class="child three">3</div>
+    <div class="child four">4</div>
+    <div class="child one">1</div>
+    <div class="child two">2</div>
+    <div class="child three">3</div>
+    <div class="child four">4</div>
+    </div> -->
+    <br>
+    <p> justify-content have <br>
+     the property of space-evenly, space-around, space-between, center, flex-start, flex-end </p>
+     <p> space-evenly will occpy the space start and between and end al will have the space as the same</p>
+        <p> space-around will have the space around the element and the start and end will have the half of the space</p>
+        <p> space-between will have the space between the element and the start and end will not have any space</p>
+        <p> center will have the element in the center and the start and end will not have any space</p>
+        <p> flex-start will have the element in the start and the end will not have any space</p>
+        <p> flex-end will have the element in the end and the start will not have any space</p>
+        <p> flex-wrap will have the element in the next line if the space is not enough</p>
+        <p> flex-wrap-reverse will have the element in the next line if the space is not enough and it will be in the reverse order</p>
+        <p> wrap , nowrap we have </p>
+        <p> flex-direction will have the element in the row and column and row-reverse and column-reverse</p>
+        <p>flex-grow  property defualt is the 0 and to arrange themself it will same width and occpy the same growth</p>
+        <p> flex-shrink is used to shrink the element if the space is not enough</p>
+        <p> flex-shrink default value is the 1</p>
+        <p> flex-basis is used to set the width of the element</p>
+        <p> flex-grow defualt is the 0 and if the 4th element will need more so give the more no than the all collective peroperty is given </p>
+        <p> align-self it will be move than all other child tag its align-self it will have center , flex-end and flex-start</p>
+        <p> order is used to arrange the element in the order we want</p>
+        <p> order defualt is the 0 and if we give the 1 it will be in the last and if we give the -1 it will be in the first</p>
+        <p> flex-direction is used to set the direction of the element</p>
+
+
+

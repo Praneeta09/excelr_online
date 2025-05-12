@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        /*flex container*/
+    .parent{
+        height: 600px;
+        border: 2px solid black;
+        display: flex;
+        /*main axis*/
+        flex-direction: column;
+        justify-content: flex-end; /* cross axix*/
+        align-items: flex-end;/* main axis*/
+        gap:10px;
+        
+/* when we are in the flex- direction : cloumn then we have the center we need align - items : center -->
+row (left- right) x axis : main axis and y axis (up and down) cross axis
+when we are in the flex- direction : row then we have the center we need align - items : center -->
+
+column (up and down) y axis : main axis and x axis (left - right) cross axis*/
+
+    }
+    /*flex items*/
+    .child{
+        height:100px;
+        width:100px;
+        font-size:20px;
+    }
+    .one{
+        background-color: red;
+    }
+    .two{
+        background-color: blue;
+    }
+    .three{
+        background-color: green;
+    }
+    .four{
+        background-color: yellow;
+    }
+    .five{
+        background-color: pink;
+    }
+
+</style>
+</head>
+<body>
+    <h1> flex</h1>
+    <hr>
+    <p> it is used to align elements</p>
+    <p>it is used to distrbute space between elements</p>
+    <p>will arrange elements in cross axis and main axis</p>
+    <p> we have an container these elements are arrange in the same height width and the aligment is same</p>
+    <p> so we have outer div and inside that we have inner div</p>
+    <p> div is the block level so it will occpy full width of the text area and next will display on new line </p>
+    <p> flex container is used to wrap the flex items</p>
+    <p> flex container is the main division of the classs</p>
+    <p> flex items are child of flex container</p>
+ <p> in the display:flex; the alignemnt will go main axis and it will like at the flex conatiner ity will fllex items</p>
+ <p>flex -direction : row (defualt) <hr> flex-direction: column <hr> flex-direction:column-reverse<hr> flex-direction:row-reverse</p>
+ <p> in the row the horizontal line will be the main axis and vertical will the cross</p>
+    <p> in the column the vertical line will be the main axis and horizontal will the cross</p>
+    <p> in the row-reverse the horizontal line will be the main axis and vertical will the cross</p>
+    <p> in the column-reverse the vertical line will be the main axis and horizontal will the cross</p>
+    <p> defualt one is row when we display:flex; is used which is (left to right)</p>
+    <p> justify-content is used to justify the content of main axis  in which we have flex-start and flex-end and center</p>
+    <p>align-items is used to align the corss axis which we have center and flex start and end</p>
+    <hr>
+    <div class="parent">
+          <div class="child  one ">1</div>
+          <div class="child  two">2</div>
+          <div class="child  three">3</div>
+          <div class="child   four ">4</div>
+          <div class="child   five">5</div>
+    </div>
+    
+</body>
+</html>

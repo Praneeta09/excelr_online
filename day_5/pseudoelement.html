@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #p1{
+        background-color: lightblue;
+       }
+
+         #p1::first-letter{
+          font-size: 30px;
+          color: red;
+          font-weight: bold;
+         }
+            #p1::first-line{
+            font-size: 20px;
+            color: green;
+            font-weight: bold;
+            }
+            #p1::before{
+                content:"❤️😍";
+
+            }
+            #p1::selection{
+                background-color: yellow;
+                color: black;
+            }
+            ::marker{
+                color: pink;
+                font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <h1> psuedo element</h1>
+    <p>it is used to style the specific part of the element</p>
+    <p>it indicate with the ::(double colon)</p>
+    <hr>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates laborum aperiam ipsa numquam deserunt, quidem impedit nisi alias eligendi ex, dolorem nostrum reprehenderit error culpa perspiciatis. A numquam quas eveniet!</p>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+</body>
+</html>

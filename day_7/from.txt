@@ -1,0 +1,31 @@
+
+
+
+
+
+
+get  method:
+it is used to displaying the data in the url in the from with the key/name and value pair
+post method:
+it will send in the body
+address is the tag pre fromatted tag to data we use the label for instead of the text are
+feedback from where we used big box container
+we have required area too
+to get gender as the particular instead of the on and odd we used the value="female" that value will get displayed 
+to get the one which are as 91 automatic for that value is used we can apply the read only content too it itself as its used.
+as we have required same as we have the hidden we have to used to hide the data 
+where we used the data hidden into it
+select tag we have 
+as < select name ="subject"id="subject"multiple size="2">
+<option value="english"> english</option>
+.
+.
+</select>
+<input for="game"> favorite game</label>
+<input name="game" id="game" list="games">
+<datalist id="games">
+<option value="cricket"></option>
+.
+.
+</datalist>
+
