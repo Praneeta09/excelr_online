@@ -1,0 +1,7 @@
+git init
+git branch
+git status
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Praneeta09/excelr_online.git
+git push origin main

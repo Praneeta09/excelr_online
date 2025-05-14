@@ -1,0 +1,103 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
+        }
+
+        .header{
+            background-color: rgb(71, 59, 83);
+            height: 30%;
+            display: flex;
+        
+
+        }
+        .item{
+             font-size: 2em;
+             color:white;
+             margin:20px;
+        }
+        .footer{
+            .footer {
+            background-color: rgb(71, 59, 83);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+            
+        }
+        }
+        @media screen and (max-width:1500px)  and (min-width:1000px){
+            .header ,.footer {
+                           background-color: rgb(245,176,107);
+                           display:flex;
+                            justify-content: center;
+            display: flex;
+            align-items: center;
+           
+
+            }
+
+        }
+        @media screen and (max-width:1000px)  and (min-width:800px){
+            .header ,.footer{
+                           background-color: darkseagreen;
+             justify-content: space-between;
+            align-items: flex-start;
+            position: fixed;
+            
+            }
+
+        }
+        @media screen and (max-width:800px)  and (min-width:500px){
+            .header ,.footer  {
+                           background-color:brown;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            display:block;
+            }
+
+        }
+        @media screen and (max-width: 800px) {
+    /*.footer {
+        position: static; /* Footer will appear below the content 
+        padding: 15px;
+        text-align: center; /* Ensure the text is centered 
+        background-color: rgb(71, 59, 83); /* Keep the same background color 
+        color: white; /* Ensure text is visible 
+        width: 100%; 00%;  Ensure it spans the full width */
+    
+    }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="item">HOME</div>
+          <div class="item">SERVICE</div>
+            <div class="item">CONTACT</div>
+    </div>
+    <hr>
+    <footer class="footer">
+        &copy;rights are resvered.
+    </footer>
+    
+</body>
+</html>

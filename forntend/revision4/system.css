@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    height:100vh;
+}
+header{
+    height: 30%;
+    border:1px solid black; 
+     background-color:rgb(153, 16, 64);
+    color:black;
+    border-radius: 10px;
+  
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-bottom: 4em;
+    color:bisque;
+}
+main{
+    height: 60%;
+    border:1px solid black;
+    display:grid;
+    grid-template-areas: "section section aside"
+                         "article1  article2 aside";
+    
+}
+
+footer{
+    height: 10%;
+    border:1px solid black;
+    background-color:rgb(153, 16, 64);
+    color:black;
+    text-align: center;
+}
+section{
+    border:1px solid black;
+    grid-area: section;
+     box-shadow: rgb(78,78,194)0px 0px 10px;
+     border-radius: 10px;
+     background-color: antiquewhite;
+     color:crimson;
+}
+.article1{
+    border:1px solid black;
+    grid-area: article1;
+     box-shadow: rgb(78,78,194)0px 0px 10px;
+     border-radius: 10px;
+     background-color: antiquewhite;
+     color:crimson;
+}
+.article2{
+    border:1px solid black;
+    grid-area: article2;
+     box-shadow: rgb(78,78,194)0px 0px 10px;
+     border-radius: 10px;
+     background-color: antiquewhite;
+     color:crimson;
+    
+    }
+aside{
+    border:1px solid black;
+    grid-area: aside; 
+     box-shadow: rgb(78,78,194)0px 0px 10px;
+     border-radius: 10px;
+     background-color: antiquewhite;
+     color:crimson;
+}

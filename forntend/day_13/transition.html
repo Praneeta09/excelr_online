@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> transition taask1</title>
+    <style>
+        .box{
+            width:200px;
+            height:100px;
+            margin:10px 0;
+        }
+    
+        .without{
+            background-color: aquamarine;
+            margin:10px 20px;
+        }
+        .with{
+            background-color: blueviolet;
+            transition-duration: 2s;
+           /* transition-property: height ; 
+           transition-property: all;
+           transition-delay: 1s;
+           transition-timing-function: ease;*/
+           transition: all 2s ease 1s;
+           margin:10px 20px;
+        }
+        .box:hover{
+            width:400px;
+            height:150px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box without"> without transtion</div>
+    <div class="box with">with transtion</div>
+    <hr>
+    <p> it is used to animate the element</p>
+    <p> it is used to change the style property of the elements</p>
+    <p> it will used to apply hover to used</p>
+    <p>Key Properties of CSS Transitions:
+transition-property:
+
+Specifies the CSS property to which the transition effect is applied.
+Example: transition-property: width;
+Use all to apply the transition to all properties.
+transition-duration:
+
+Defines the time (in seconds or milliseconds) the transition takes to complete.
+Example: transition-duration: 2s;
+transition-timing-function:
+
+Specifies the speed curve of the transition.
+Common values:
+ease (default): Starts slow, speeds up, then slows down.
+linear: Constant speed.
+ease-in: Starts slow.
+ease-out: Ends slow.
+ease-in-out: Starts and ends slow.
+cubic-bezier(n,n,n,n): Custom speed curve.
+Example: transition-timing-function: ease-in;
+transition-delay:
+
+Specifies the delay before the transition starts.
+Example: transition-delay: 1s; </p>
+
+<pre>
+    transition (Shorthand):
+Combines all the above properties into a single declaration.
+Syntax: transition: [property] [duration] [timing-function] [delay];
+Example: transition: all 2s ease 1s;
+Example Usage:
+Notes:
+Transitions only work on properties that can be interpolated (e.g., width, height, color, transform).
+Use :hover, :focus, or JavaScript to trigger transitions.
+The transition property enhances interactivity and visual appeal.
+
+
+
+This means:
+
+All properties (all) will transition.
+The transition will take 2 seconds (2s).
+The speed curve is ease.
+The transition starts after a 1-second delay (1s).</pre>
+
+</body>
+</html>
