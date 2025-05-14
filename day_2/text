@@ -1,0 +1,30 @@
+1.element selector
+used to select the element based upon the tag name
+<li class="complete">
+in the style tag we need to give the .complete{
+    background-color="";
+    color="";
+    display=""
+    margin-top=;
+    margin-botton=;
+    margin-style=solid;
+
+}
+2.id selector 
+the id selector is used to select based upon the name
+the id selector must be unique
+the id selector in which it have # name of the id selector 
+
+more info is on the day_3 folder partice.html file
+
+block level
+div,p,ol,ul,heading tag 
+it will occpy always entire width
+it will start with the new line
+it have height , width , all poperty
+inline level
+hr,br,span,i,b,small
+<display:block>
+    display:inline-block(its an inline element it have inline but acts as the block it have height , width all)
+</display:block>
+

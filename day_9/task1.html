@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Task</title>
+    <style>
+        .main-container {
+            min-height: 10hv;
+            display: grid;
+            grid-template-areas: " header   header" 
+                                 " content    section1 "
+                                 " content     section1 "
+                                 "footer    footer "
+        }
+        .item {
+            border: 1px solid rgba(69, 134, 79, 0.1);
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+            align-content: center;
+            margin:10px;
+            border-radius: 10px;
+        }
+        .header {
+            background-color: lightblue;
+            
+            grid-area: header;
+        }
+        .content {
+            grid-row:2/4;
+            background-color: lightgreen;
+            grid-area: content;
+        }
+        .section1 {
+            background-color: lightcoral;
+            grid-area: section1;
+        }
+        .section2 {
+            background-color: lightgoldenrodyellow;
+            grid-area: section2;
+        }
+
+        
+        .item{
+            font-size: 40px;
+            text-align: center;
+        }
+        .header{
+            background-color: red;
+    
+        }
+        .content{
+            background-color: blue;
+        }
+        .section1{
+            background-color: green;
+        }
+        .section2{
+            background-color:aqua;
+        }
+        .footer{
+            background-color: yellow;
+            grid-area: footer;
+           
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="main-container">
+            <div class="item header"> header </div>
+            <div class="item content"> content </div>
+            <div class="item section1"> section1</div>
+            <div class="item section2"> section2</div>
+            <div class="item footer"> footer </div>
+    </div>
+</body>
+</html>

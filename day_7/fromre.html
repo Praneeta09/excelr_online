@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 400px;
+            margin:10px auto;
+        }
+        button{
+            background-color: cornsilk;
+            color:crimson;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action=""method="post">
+        <fieldset>
+            <legend> basic infromation</legend>
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="enter 10 digit number" pattern="[0-9]{10}" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <br>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Cancel</button>
+
+    </form>
+</body>
+</html>

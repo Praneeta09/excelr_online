@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+    
+        .bulb {
+          width: 300px;
+          height: 300px;
+          background-color: white;
+          border-radius: 50%;
+          border: 2px solid black;
+          margin: 2rem auto;
+          transition: background-color 0.3s ease;
+        }
+    
+        button {
+          padding: 1rem 2rem;
+          margin: 1rem;
+          font-size: 1.2rem;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+    
+      
+      </style>
+    </head>
+    <body>
+    
+      <h1>Bulb</h1>
+      <div class="bulb" id="bulb"></div>
+    
+      <button id="onBtn">Turn On</button>
+      <button id="offBtn">Turn Off</button>
+    
+      <script>
+        const bulb = document.getElementById("bulb");
+        const onBtn = document.getElementById("onBtn");
+        const offBtn = document.getElementById("offBtn");
+    
+        function turnOn() {
+          const color = prompt("Enter a color :");
+          if (color) {
+            bulb.style.backgroundColor = color;
+          }
+        }
+    
+        function turnOff() {
+          bulb.style.backgroundColor = "white";
+        }
+    
+        onBtn.addEventListener("click", turnOn);
+        offBtn.addEventListener("click", turnOff);
+      </script>
+</body>
+</html>
