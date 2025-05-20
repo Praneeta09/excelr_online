@@ -1,0 +1,52 @@
+day 12 as headless pizza
+day 13 as transition  and deployment
+day 14 as java
+day 15
+
+javascript :
+its an scripiting langugae
+it used to create dynamic page
+its an client side langugae
+its synchronous language 
+it exceute line by line 
+its an case senstive langugae
+it is used to add behaviour and dunctionality to webpages 
+javascript also have :
+1.angular javascript
+2. react javascript
+3. vue javascript
+4. node javascript
+js current version : ECAMScript 13 (ES13)
+
+ECAMScript: euporean computers manufacture associations
+
+-- if we want to create javascript we required the .js extentions 
+------------------------------------
+we can include js in 3 ways :
+inline js
+internal js 
+externaln js
+--------------------------------------------
+inline js :
+<button script=""> </button>
+
+internal js :
+<script> </script>
+-----------------------------------------------
+external js :
+<script src="filename.js"></script>
+---------------------------------
+javascript is the functionality where the it goes 
+skelton -html
+
+body - css
+respiratory- js 
+-----------------------------------------------------------
+operations in js :
+1. arithmetic opertors
+2. relational
+3. logical
+4 . assigment opertor
+5. ternary opertor
+6 bitwise operators
+
